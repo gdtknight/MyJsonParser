@@ -12,11 +12,15 @@
 ## Package Structure
 
 -  myjsonparser
-   - instances
-     - **MyJsonArray**
-     - **MyJsonObject**
+   - core
      - **MyJsonParser**
+     - **MyJsonObject**
+     - **MyJsonArray**
      - **MyJsonValue**
+     - **MyJsonStringValue**
+     - **MyJsonNumberValue**
+     - **MyJsonDNumberValue**
+     - **MyJsonBooleanValue**
    - constants 
      - **MyJsonConstants**
    - exception
